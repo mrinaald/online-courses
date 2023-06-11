@@ -1,0 +1,22 @@
+In general, a feedforward term anticipates in a sense the expected response of the system, i.e. it's a term that does not depend on the errors, but on the expected response/behavior of the system under control. In that sense, it captures (or tries to capture) some of the dynamics of the system, generally with the intention of increasing the gains, i.e. reducing the convergence times. It's also usually a way to design a simpler controller. Beware that a feedforward term can introduce instabilities and oscillations, if not carefully chosen, because it does not depend on the errors, but on the (assumed) dynamical response of the system. If those assumptions are violated under some conditions (or simply wrong), the system can become unstable.
+
+
+=====================================================================
+
+1.
+I am struggling understanding the feedforward and have no idea of how to define it. 
+I think if z_des is fixed, the double dot should be 0, am I right? 
+I want to know how does it work.
+
+2.
+In the first programming assignment, why are s and s_des both 2*1 vectors?
+
+
+Question 1
+For feedforward, think of a loop. Every time you go through this loop, you are reducing an attribute of the PD controller until that attribute is minimized if it isn't already (think about what attribute that may be - remember, it's something associated with the PD controller that you want to reduce to make the training better). I would also advise you look at the post here for more information.
+
+You are correct about the double dot of z_des being 0. Since z_des itself is fixed, it never changes, meaning both the derivative and double derivative of z_des are 0. Given that information, what can you infer about the feedforward of z_des (note that the feedforward does not have to always be changing).
+
+Question 2
+
+Both s and s_des are vectors that represent states. Think of what two elements are the most important in describing a robot's state (hint: where and when)

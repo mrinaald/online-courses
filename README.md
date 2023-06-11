@@ -3,6 +3,7 @@ Repository containing documents about completed online courses from different pl
 
 ## Coursera
 ### Specializations
+- [Robotics](./specializations/Robotics%20--%20UPenn/) by _University of Pennsylvania_
 
 ### Courses
 - [Kotlin for Java Developers](./coursera/independent-courses/Kotlin%20for%20Java%20Developers%20--%20JetBrains) by _JetBrains_

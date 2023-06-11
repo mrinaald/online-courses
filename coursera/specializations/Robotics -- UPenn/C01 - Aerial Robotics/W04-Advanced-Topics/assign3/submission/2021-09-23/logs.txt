@@ -1,0 +1,8 @@
+Line trajectory:
+Cumulative position error: 0.0025328
+
+Helix trajectory:
+Cumulative position error: 0.098266
+
+Test trajectory generator:
+Successfully passed through 5/5 waypoints in 15.37 sec with a trajectory length of 7.1243 meters
