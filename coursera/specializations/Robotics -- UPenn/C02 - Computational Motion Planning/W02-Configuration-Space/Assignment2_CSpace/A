@@ -1,0 +1,76 @@
+# Created by Octave 6.3.0, Sun Jan 09 11:16:49 2022 IST <mrinaal@mrinaal-inspiron-3543>
+# name: A
+# type: bool matrix
+# rows: 3
+# columns: 3
+ 1 1 1
+ 1 1 1
+ 1 1 1
+
+
+# name: ans
+# type: matrix
+# rows: 6
+# columns: 3
+ 1 2 3
+ 1 3 4
+ 5 6 7
+ 5 7 8
+ 9 10 11
+ 9 11 12
+
+
+# name: fv
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: faces
+# type: matrix
+# rows: 6
+# columns: 3
+ 1 2 3
+ 1 3 4
+ 5 6 7
+ 5 7 8
+ 9 10 11
+ 9 11 12
+
+
+# name: vertices
+# type: matrix
+# rows: 12
+# columns: 2
+ 0.5 0
+ 0.5 5
+ -0.5 5
+ -0.5 0
+ 0.43301270189221919 4.75
+ 2.9330127018922214 9.080127018922191
+ 2.066987298107783 9.580127018922191
+ -0.43301270189221919 5.25
+ 3.1495190528383308 8.955127018922191
+ 3.6495190528383317 9.8211524227066302
+ 1.8504809471616734 9.705127018922191
+ 2.3504809471616737 10.57115242270663
+
+
+
+
+# name: p
+# type: scalar
+-39.771357697541191
+
+
+# name: sz
+# type: scalar
+12
+
+
+# name: val
+# type: sq_string
+# elements: 1
+# length: 11
+octave:\#> 
+
+
