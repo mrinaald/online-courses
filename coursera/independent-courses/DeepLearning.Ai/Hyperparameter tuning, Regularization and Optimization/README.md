@@ -1,4 +1,4 @@
-# Kotlin for Java Developers
+# Hyperparameter Tuning, Regularization, and Optimization
 Course [link](https://www.coursera.org/learn/deep-neural-network)
 
 Certificate [link](./Hyperparameter%20tuning,%20Regularization%20and%20Optimization.pdf)

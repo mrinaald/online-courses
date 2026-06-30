@@ -1,4 +1,4 @@
-# Kotlin for Java Developers
+# Convolutional Neural Networks
 Course [link](https://www.coursera.org/learn/convolutional-neural-networks)
 
 Certificate [link](./Convolutional%20Nerual%20Networks.pdf)
