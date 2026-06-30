@@ -1,0 +1,1 @@
+aws s3 cp --recursive s3://dlai-generative-ai/labs/w2-170864/ ./
